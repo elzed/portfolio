@@ -1,29 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lee Zamastil</title>
     <link rel="stylesheet" href="/styles/normalize.css">
 </head>
+
 <body>
+
     <header class="site-header">
         <h1>
             The Zed
         </h1>
     </header>
+
     <nav class="main-nav">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="http://twitter.com/elzed" target="_blank">Twitter</a></li>
-            <li><a href="http://github.com/elzed" target="_blank">GitHub</a></li>
+        <ul id="nav-list">
+            <li data-content="articles"><a href="#">Approach</a></li>
+            <li data-content="demos"><a href="#">Work</a></li>
+            <li data-content="contact"><a href="#">Contact</a></li>
         </ul>
     </nav>
+
     <main>
 
+        <section id="articles" class="tab-content">
+            <header>
+                The Right Solutions
+            </header>
+            <section>
+                <h1>Services Provided:</h1>
+                <ul>
+                    <li>Creative Design</li>
+                    <li>Social &amp; Content</li>
+                    <li>Coding</li>
+                    <li>Education</li>
+                </ul>
+            </section>
+        </section>
 
+
+        <section id="demos" class="tab-content">
+            <header>
+                See Completed Projects
+            </header>
+            <section>
+                <h1>Projects:</h1>
+                <ul>
+                    <li>Website Redesign</li>
+                    <li>Digital Photography</li>
+                    <li>Video</li>
+                </ul>
+            </section>
+        </section>
+
+
+        <section id="contact" class="tab-content">
+            <header>
+                Get In Touch
+            </header>
+            <section>
+                <h1>Find Me Almost Anywhere:</h1>
+                <ul>
+                    <li>Email</li>
+                    <li>Social Media</li>
+                        <ul>
+                            <li><a href="http://twitter.com/elzed" target="_blank">Twitter</a></li>
+                            <li><a href="http://github.com/elzed" target="_blank">GitHub</a></li>
+                        </ul>
+                    <li>Office</li>
+                </ul>
+            </section>
+        </section>
 
     </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts/article.js"></script>
+    
 </body>
+
 </html>
