@@ -1,0 +1,10 @@
+body {
+    background-color: #FF5151;
+    color: #FFF8F0;
+}
+
+#menu {
+    height: 100px;
+    width: 100%;
+    background-color: #2E3060;
+}
