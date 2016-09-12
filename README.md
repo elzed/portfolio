@@ -3,8 +3,4 @@
 Author: Lee Zamastil
 Assignment from Class 03 | Code Fellows 301
 
-Begin with valid and semantic markup. Link to social media and GitHub profiles.
-
-Use bubbling to handle event clicking on nav links.
-
----
+Added Skeleton framework. Created responsive navbar. Added test photo to check re-sizing.
