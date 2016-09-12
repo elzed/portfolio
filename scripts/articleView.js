@@ -14,7 +14,7 @@ articleView.handleMainNav = function() {
         $('section.tab-content').hide();
         selectedTab.show();
     });
-    $('.main-nav .tab:first').click(); // Fake a click on the first .tab element to set up the page.
+    $('.main-nav .tab:last').click(); // Fake a click on the last .tab element to set up the page.
 };
 
 // Call the function on document load

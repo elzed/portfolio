@@ -1,10 +1,47 @@
 body {
     background-color: #FF5151;
-    color: #FFF8F0;
+    color: #F3F3F3;
 }
 
-#menu {
+/*#menu {
     height: 100px;
     width: 100%;
     background-color: #2E3060;
+}*/
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.main-nav {
+    list-style-type: none;
+    background-color: #2E3060;
+    overflow: hidden;
+}
+
+/* Float the list items side by side */
+ul.main-nav li {
+    float: right;
+}
+
+/* Style the links inside the list items */
+ul.main-nav li a {
+    display: inline-block;
+    color: #F3F3F3;
+    padding: 24px 20px 16px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Change background color of links on hover */
+ul.main-nav li a:hover {
+    background-color: #FF5151;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.main-nav li.icon {
+    display: none;
+}
+
+/* Set photo */
+#photo1 {
+    width: 50%;
+    
 }
